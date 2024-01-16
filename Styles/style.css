@@ -1,0 +1,139 @@
+/* google font style */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap")
+  /* common CSS styles */ * {
+  margin: 0px;
+  padding: 0px;
+}
+/* body style */
+
+body {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  padding: 50px 130px;
+}
+body {
+  max-width: 1170px;
+}
+
+:root {
+  --primary-color: #ff5400;
+  --secondary-color: #131318;
+  --description-color: rgba(19, 19, 24, 0.7);
+}
+.btn-primary {
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+  color: #fff;
+  padding: 14px 34px;
+}
+/* nav styles start from here */
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  color: #424247;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-left: 40px;
+}
+nav ul {
+  display: flex;
+}
+#home {
+  color: var(--primary-color);
+}
+.logo-title-content {
+  color: var(--secondary-color);
+}
+.logo-title {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-left: 15px;
+}
+.nav-logo span {
+  color: var(--primary-color);
+}
+/* nav styles end here */
+
+/* banner style start from here */
+.banner-container {
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  margin: 50px 0px;
+  background-size: 100%;
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/banner\ bg.png");
+}
+
+.banner-content {
+  text-align: center;
+  color: #fff;
+  padding-inline: 60px;
+  padding: 0px 180px;
+}
+.banner-title {
+  font-weight: 800;
+  font-size: 4rem;
+  padding: 0px 100px;
+}
+
+/* form style */
+.form {
+  display: flex;
+  gap: 20px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.315);
+  padding: 16px;
+}
+
+.input-style {
+  padding: 16px 80px 16px 15px;
+  border-radius: 8px;
+  background: #fff;
+}
+.btn-submit {
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  padding: 16px 35px 16px 70px;
+}
+
+/* banner style end here */
+
+/* Tour styles section start */
+.tour-container {
+  display: flex;
+  gap: 50px;
+}
+.tour-title {
+  color: var(--secondary-color);
+  font-weight: 800;
+  font-size: 2.5em;
+}
+.tour-description {
+  color: var(--description-color);
+  font-weight: 400;
+  margin: 20px 0px;
+}
+#list-content {
+  margin: 20px 0px;
+}
+
+/* Tour styles section end */
